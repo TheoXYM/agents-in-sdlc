@@ -147,4 +147,4 @@ Tailspin Toys 需要的不只是模型的一次性回答。支持者希望礼宾
 [overview]: ../
 [previous-lesson]: ../1-project-and-model/
 [next-lesson]: ../3-connect-to-site/
-[cleanup]: ../#清理资源
+[cleanup]: ./#清理资源

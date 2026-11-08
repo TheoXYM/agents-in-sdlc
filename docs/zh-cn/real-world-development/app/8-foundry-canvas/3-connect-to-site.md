@@ -86,5 +86,5 @@ Tailspin Toys 完全采用预渲染。浏览器代码绝不能直接调用托管
 [previous-module]: ../2-build-and-deploy/
 [project-module]: ../1-project-and-model/
 [agent-checks]: ../2-build-and-deploy/#在本地检查代理
-[cleanup]: ../#清理资源
+[cleanup]: ./#清理资源
 [core-review]: ../../10-review/

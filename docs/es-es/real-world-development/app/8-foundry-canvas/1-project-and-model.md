@@ -22,7 +22,7 @@ Al terminar, tendrás:
 
 ## Escenario
 
-Quienes apoyan los juegos de Tailspin Toys pueden filtrarlos por categoría y editor, pero preguntas como *¿Qué juegos serían adecuados para alguien a quien le encantan los juegos de palabras sobre Git?* no se responden con un menú desplegable. Backer Concierge debe recomendar solo juegos del catálogo de Tailspin y nunca inventar juegos, editores, valoraciones, importes recaudados, cifras de patrocinadores, precios, números de jugadores, duraciones de partida ni fechas de lanzamiento. Un catálogo fiable y un modelo adecuado son la base de esas respuestas.
+Quienes apoyan los juegos de Tailspin Toys pueden filtrarlos por categoría y editorial, pero preguntas como *¿Qué juegos serían adecuados para alguien a quien le encantan los juegos de palabras sobre Git?* no se responden con un menú desplegable. Backer Concierge debe recomendar solo juegos del catálogo de Tailspin y nunca inventar juegos, editoriales, valoraciones, importes recaudados, cifras de patrocinadores, precios, números de jugadores, duraciones de partida ni fechas de lanzamiento. Un catálogo fiable y un modelo adecuado son la base de esas respuestas.
 
 ## Preparar las herramientas y la sesión de la incidencia
 
@@ -59,7 +59,7 @@ El repositorio de ejemplo incluye un script de exportación que proporciona al a
 
    ![Generar la exportación del catálogo](../../../../_images/app-8-generate-catalog-export.png)
 
-10. Abre `db/catalog.json` y confirma que contiene 21 juegos con título, descripción, categoría, editor y valoración por estrellas. Comprueba el campo `note`: el catálogo no contiene importes recaudados, cifras de patrocinadores, niveles de aportación ni fechas de lanzamiento. Considera también como no disponibles los precios, números de jugadores y duraciones de partida que falten, en lugar de rellenar los huecos con conocimientos externos. Si la exportación falla o es distinta, pide a Copilot que lo investigue y vuelva a ejecutarla antes de continuar.
+10. Abre `db/catalog.json` y confirma que contiene 21 juegos con título, descripción, categoría, editorial y valoración por estrellas. Comprueba el campo `note`: el catálogo no contiene importes recaudados, cifras de patrocinadores, niveles de aportación ni fechas de lanzamiento. Considera también como no disponibles los precios, números de jugadores y duraciones de partida que falten, en lugar de rellenar los huecos con conocimientos externos. Si la exportación falla o es distinta, pide a Copilot que lo investigue y vuelva a ejecutarla antes de continuar.
 
    ![Exportación del catálogo abierta en la aplicación Copilot](../../../../_images/app-8-view-catalog.png)
 
@@ -107,7 +107,7 @@ Crear primero el proyecto y la implementación en el chat permite que Canvas se 
 
     ![Seleccionar un modelo](../../../../_images/app-8-select-model.png)
 
-16. Pide a Copilot que implemente el modelo elegido y revisa el proyecto de destino y el coste antes de aprobarlo:
+16. Pide a Copilot que despliegue el modelo elegido y revisa el proyecto de destino y el coste antes de aprobarlo:
 
     ```plaintext
     Deploy the model I selected to the tailspin-toys Foundry project, using the model name as the deployment name.
@@ -129,10 +129,10 @@ Esta comprobación verifica el proyecto y el modelo antes de que exista código 
 20. En la misma sesión, escribe:
 
     ```plaintext
-    Usa la habilidad de Microsoft Foundry para probar directamente el modelo que he implementado en el proyecto tailspin-toys sin crear un agente. Basa la respuesta en el contenido de @db/catalog.json y pregunta: «Me encantan los juegos de rompecabezas sobre la búsqueda de errores. ¿Qué debería apoyar y cuánto dinero ha recaudado?». Muéstrame la respuesta y metadatos útiles, como los tokens utilizados y el tiempo de respuesta, solo si están disponibles. Usa mi sesión de Azure existente. No muestres credenciales, modifiques archivos ni crees recursos.
+    Use the Microsoft Foundry skill to test my deployed model directly in the tailspin-toys project without creating an agent. Ground it with content from @db/catalog.json and ask: "I love puzzle games about tracking down bugs. What should I back, and how much funding has it raised?" Show me the response and useful metadata such as tokens used and response time, only if available. Use my existing Azure sign-in. Do not display credentials, change files, or create resources.
     ```
 
-21. Revisa la respuesta. Debe recomendar únicamente un juego real de `db/catalog.json`, usar el título, el editor y la valoración correctos, y explicar que la información de financiación no está disponible. Si el modelo inventa un juego, datos del catálogo o una cantidad de financiación, compara otro modelo recomendado antes de continuar.
+21. Revisa la respuesta. Debe recomendar únicamente un juego real de `db/catalog.json`, usar el título, la editorial y la valoración correctos, y explicar que la información de financiación no está disponible. Si el modelo inventa un juego, datos del catálogo o una cantidad de financiación, compara otro modelo recomendado antes de continuar.
 
 > [!NOTE]
 > Canvas recuerda el proyecto seleccionado cuando se vuelve a abrir. Sus etapas son **Create new hosted agents** para generar la estructura inicial, **Build current hosted agent** para conectar modelos, conjuntos de herramientas, habilidades y medidas de protección, y **Deploy and test** para las ejecuciones locales y la implementación en Microsoft Foundry.

@@ -213,7 +213,7 @@ Tailspin Toys 需要一个能够区分目录事实和公司未提供信息的礼
 
 [overview]: ../
 [next-lesson]: ../2-build-and-deploy/
-[cleanup]: ../#清理资源
+[cleanup]: ./#清理资源
 [azure-free]: https://azure.microsoft.com/pricing/purchase-options/azure-account
 [azure-students]: https://azure.microsoft.com/free/students
 [install-azd]: https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd

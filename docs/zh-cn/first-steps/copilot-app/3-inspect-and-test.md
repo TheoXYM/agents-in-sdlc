@@ -65,3 +65,4 @@ Run a browser-level smoke test for the quiz in the integrated browser. Check key
 已经确认会话的项目和使用详情，并通过浏览器级冒烟测试验证了测验。继续学习[第 4 课：记录项目指令][next-lesson]。
 
 [next-lesson]: ../4-project-instructions/
+[publish-lesson]: ../5-publish/

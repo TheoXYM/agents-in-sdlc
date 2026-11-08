@@ -148,4 +148,4 @@ Tailspin Toys 的支持者可以按类别和发行商筛选游戏，但*哪些�
 [install-azure-cli]: https://learn.microsoft.com/cli/azure/install-azure-cli
 [install-azd]: https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd
 [next-module]: ../2-build-and-deploy/
-[cleanup]: ../#清理资源
+[cleanup]: ./#清理资源

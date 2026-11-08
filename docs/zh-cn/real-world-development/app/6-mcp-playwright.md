@@ -56,12 +56,12 @@ lastUpdated: 2026-07-09
     Start the app and use Playwright MCP to check filtering against the issue and our plan. Tell me what works and what doesn't, without making changes. Stop the server you started when you're done.
     ```
 
-  > [!NOTE]
-  > 不必明确要求 Copilot 使用特定 MCP 服务器；它通常会根据当前上下文找到合适的服务器。不过，明确指出你认为重要的信息始终是合理做法。
+> [!NOTE]
+> 不必明确要求 Copilot 使用特定 MCP 服务器；它通常会根据当前上下文找到合适的服务器。不过，明确指出你认为重要的信息始终是合理做法。
 
-  2. 接下来只需观察其操作。
+2. 接下来只需观察其操作。
 
-  Copilot 会启动服务器、打开浏览器并与网站交互。完成后，它会停止服务器并提供报告。
+Copilot 会启动服务器、打开浏览器并与网站交互。完成后，它会停止服务器并提供报告。
 
 ## 总结与后续步骤
 

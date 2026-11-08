@@ -79,5 +79,5 @@ UI 现在有了经过验证的后端。端到端测试将同时检查可用性�
 体验结束后，请停止本地服务并[清理 Azure 资源][cleanup]，以免持续产生费用。然后返回核心工作坊的 [VS Code 概述][vscode-overview]。
 
 [previous-lesson]: ../2-build-and-deploy/
-[cleanup]: ../#清理资源
+[cleanup]: ./#清理资源
 [vscode-overview]: ../../

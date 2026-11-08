@@ -138,7 +138,7 @@ Model Playground 没有目录文件。在系统提示中提供精简的九款游
 
 [overview]: ../
 [next-lesson]: ../2-build-and-deploy/
-[cleanup]: ../#清理资源
+[cleanup]: ./#清理资源
 [azure-free]: https://azure.microsoft.com/pricing/purchase-options/azure-account
 [azure-students]: https://azure.microsoft.com/free/students
 [foundry-skill]: https://github.com/microsoft/azure-skills/blob/main/skills/microsoft-foundry/SKILL.md

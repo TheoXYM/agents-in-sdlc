@@ -37,6 +37,7 @@ La inspección y la implementación del agente hospedado utilizan Azure Develope
    ```
 
 3. Ejecuta `azd config show` para verificar la suscripción de Azure. Si está vacía o es incorrecta, actualízala con `azd config set defaults.subscription <subscription-id>` y vuelve a ejecutar `azd config show` para confirmar el cambio.
+
 ## Generar la estructura inicial de Backer Concierge
 
 Canvas genera el código, la estructura de carpetas y el archivo `azure.yaml` de la raíz que conectan Backer Concierge con la implementación del modelo existente.
@@ -136,7 +137,7 @@ Canvas genera el código, la estructura de carpetas y el archivo `azure.yaml` de
 
     Resultado esperado: la segunda respuesta se refiere solo a los dos títulos de la primera respuesta y compara correctamente sus valoraciones del catálogo.
 
-15. Compara cada respuesta con `db/catalog.json` y con los criterios de aceptación de la incidencia. Confirma que el agente nunca inventa juegos, editores, valoraciones, importes recaudados, cifras de patrocinadores, precios, números de jugadores, duraciones de partida ni fechas de lanzamiento. Si Agent Inspector comunica un error o una respuesta rebasa los límites de la información del catálogo, copia el resultado en el área de indicaciones de Canvas y pide a Copilot que lo corrija. Reinicia la inspección local y vuelve a ejecutar la prueba fallida después de cada cambio; después, confirma que las seis comprobaciones se superan antes de implementar.
+15. Compara cada respuesta con `db/catalog.json` y con los criterios de aceptación de la incidencia. Confirma que el agente nunca inventa juegos, editoriales, valoraciones, importes recaudados, cifras de patrocinadores, precios, números de jugadores, duraciones de partida ni fechas de lanzamiento. Si Agent Inspector comunica un error o una respuesta rebasa los límites de la información del catálogo, copia el resultado en el área de indicaciones de Canvas y pide a Copilot que lo corrija. Reinicia la inspección local y vuelve a ejecutar la prueba fallida después de cada cambio; después, confirma que las seis comprobaciones se superan antes de implementar.
 
 ## Implementar el agente hospedado y volver a probarlo
 

@@ -1,6 +1,6 @@
 ---
 slug: pt-br/real-world-development/vscode
-title: "VS Code"
+title: "Visual Studio Code"
 authors:
   - geektrainer
 lastUpdated: 2026-06-30
@@ -34,6 +34,7 @@ Antes de participar deste workshop, certifique-se de ter:
 > Não tem um plano pago? Estudantes verificados podem obter o GitHub Copilot gratuitamente por meio do [GitHub Education][callout-student-plan-education]. O plano **Copilot Student** inclui os recursos de agente, MCP, revisão de código e Copilot CLI usados neste workshop — portanto, você pode concluir todas as trilhas com ele.
 
 [callout-student-plan-education]: https://github.com/education/students
+
 ## Primeiros passos
 
 **[Comece pelo Exercício 0: Pré-requisitos →][ex0]**

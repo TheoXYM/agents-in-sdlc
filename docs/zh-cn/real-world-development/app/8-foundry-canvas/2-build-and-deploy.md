@@ -157,4 +157,4 @@ Canvas 使用 `azd` 部署经过测试的代理。Foundry 会打包服务源代�
 
 [previous-module]: ../1-project-and-model/
 [next-module]: ../3-connect-to-site/
-[cleanup]: ../#清理资源
+[cleanup]: ./#清理资源

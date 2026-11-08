@@ -103,4 +103,4 @@ lastUpdated: 2026-09-16
 [previous-lesson]: ../1-project-and-model/
 [model-tests]: ../1-project-and-model/#测试已部署的模型
 [next-lesson]: ../3-connect-to-site/
-[cleanup]: ../#清理资源
+[cleanup]: ./#清理资源
